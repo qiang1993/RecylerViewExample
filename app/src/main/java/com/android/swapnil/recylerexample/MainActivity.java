@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // added a comment to push it to git.
+        
         TextView skip = (TextView) findViewById(R.id.skip);
 
         String htmlString="<u>Skip</u>";
